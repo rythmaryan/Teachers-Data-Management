@@ -1,0 +1,13 @@
+<?php
+	
+     $host = "sql304.epizy.com";  
+     $user = "epiz_30730017";  
+     $password = 'uiElkXDju8D';  
+     $db_name = "epiz_30730017_teachersdetails";  
+       
+     $con = mysqli_connect($host, $user, $password, $db_name);  
+     if(mysqli_connect_errno()) {  
+         die("Failed to connect with MySQL: ". mysqli_connect_error());  
+     }  
+      
+?>
